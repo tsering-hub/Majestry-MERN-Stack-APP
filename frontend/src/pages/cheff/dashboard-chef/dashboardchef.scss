@@ -1,0 +1,20 @@
+.dashboardchef-container {
+  margin: 40px 5%;
+}
+.dash-nav {
+  background-color: rgb(208, 208, 208);
+  padding: 10px;
+}
+
+.dashnav-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: larger;
+  color: black;
+}
+.dashnavactive {
+  text-decoration: underline;
+  text-decoration-color: orangered;
+  text-decoration-thickness: 3px;
+  transition: all 1.5s;
+}

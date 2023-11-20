@@ -1,0 +1,65 @@
+.register-container {
+  margin: 100px 10%;
+  display: flex;
+  justify-content: center;
+}
+.register-card {
+  padding: 100px 5%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  max-width: 900px;
+  align-items: center;
+  justify-content: center;
+}
+.btn-register {
+  border: 3px solid #8a1d1d;
+  background-color: #8a1d1d;
+  color: white;
+  padding: 18px 28px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.btn-register:hover {
+  background-color: white;
+  color: #8a1d1d;
+}
+.register {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.register-heading {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.login-part {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.login-part > p {
+  padding: 10px;
+}
+.signin-link {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 500;
+  color: #fc2828;
+  transition: all 0.5s;
+}
+
+.signin-link:hover {
+  color: #540909;
+}
